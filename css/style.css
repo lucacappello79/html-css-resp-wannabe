@@ -133,13 +133,16 @@ img {
 /* Ho dato un colore diverso allo sfondo della sezione Steps per verificarne il corretto funzionamento. Ho visto che mi piaceva e l'ho lasciato per scelta, permette anche di vedere meglio i personaggi che hanno un colore della pelle rosa molto simile al precedente sfondo.
 Ho dato una grandezza leggermente inferiore alla width delle colonne flexate all'interno delle row per poterle staccare un po' di più l'una dall'altra e poi le ho separate con uno space around. Mi piaceva la spaziatura creata */
 
+.container{
+    width: 100%;
+}
 
 /* Tablet */
  @media screen and (max-width: 768px) {
 
-    .container{
+    /* .container{
         width: 100%;
-    }
+    } */
 
     .row{
         justify-content: space-around;
