@@ -174,14 +174,28 @@ Ho dato una grandezza leggermente inferiore alla width delle colonne flexate all
 
     .steps {
         background: #a07eaa;
+        margin-bottom: 0;
     }
 
     .steps .col {
         width: calc(80%);
     }
 
-    .why-us{
+   .why-us{
         background-color: #222222;
+    }
+
+    .why-us .col-left {
+        width: 70%;
+    }
+
+    .why-us .col-right {
+        width: 75%;
+    }
+
+    .why-us {
+        padding-top: 70px;
+        margin-bottom: 0;
     }
 }
 
