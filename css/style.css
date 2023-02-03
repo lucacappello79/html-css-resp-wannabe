@@ -134,7 +134,7 @@ img {
 Ho dato una grandezza leggermente inferiore alla width delle colonne flexate all'interno delle row per poterle staccare un po' di più l'una dall'altra e poi le ho separate con uno space around. Mi piaceva la spaziatura creata */
 
 
-/* inizio tablet */
+/* Tablet */
  @media screen and (max-width: 768px) {
 
     .container{
@@ -157,4 +157,32 @@ Ho dato una grandezza leggermente inferiore alla width delle colonne flexate all
         width: calc(90% / 3);
     }
  }
-/* fine tablet */
+/* /Tablet */
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+    .row{
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+
+    .lessons .col {
+        width: 85%;
+    }
+
+    .steps {
+        background: #a07eaa;
+    }
+
+    .steps .col {
+        width: calc(80%);
+    }
+
+    .why-us{
+        background-color: #222222;
+    }
+}
+
+/* /Mobile */
